@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Library Management System</title>
+  <title>Hệ thống quản lý thư viện</title>
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
@@ -27,7 +27,7 @@
 
     
             
-    <h4>Library Management System</h4>
+    <h4>Hệ thống quản lý thư viện</h4>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
       <i class="fas fa-bars"></i>

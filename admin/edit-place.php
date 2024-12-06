@@ -40,7 +40,7 @@ if(isset($_REQUEST['sv-place']))
         <!-- Breadcrumbs-->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
-            <a href="#">Edit Place</a>
+            <a href="#">Chỉnh sửa địa điểm</a>
           </li>
           
         </ol>
@@ -48,27 +48,27 @@ if(isset($_REQUEST['sv-place']))
   <div class="card mb-3">
           <div class="card-header">
             <i class="fa fa-info-circle"></i>
-            Edit Details</div>
+            Chi tiết</div>
              
             <form method="post" class="form-valide">
           <div class="card-body">
                                       
                                   <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="remarks">Place Name <span class="text-danger">*</span></label>
+                                      <label class="col-lg-4 col-form-label" for="remarks">Tên địa điểm <span class="text-danger">*</span></label>
                                        <div class="col-lg-6">
-                                      <input type="text" name="name" id="name" class="form-control" placeholder="Enter Place Name" value="<?php echo $row['name']; ?>" required>
+                                      <input type="text" name="name" id="name" class="form-control" placeholder="Nhập địa điểm" value="<?php echo $row['name']; ?>" required>
                                        </div>
                                   </div>
                                   
                                   
                                       <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="status">Status <span class="text-danger">*</span>
+                                            <label class="col-lg-4 col-form-label" for="status">Trạng thái <span class="text-danger">*</span>
                                             </label>
                                             <div class="col-lg-6">
                                                 <select class="form-control" id="status" name="status" required>
                                                     <option value="">Select Status</option>
-                                                   <option value="1" <?php if($row['status'] == 1) { ?> selected="selected"; <?php } ?>>Active</option>
-                                                   <option value="0" <?php if($row['status'] == 0) { ?> selected="selected"; <?php } ?>>Inactive</option>
+                                                   <option value="1" <?php if($row['status'] == 1) { ?> selected="selected"; <?php } ?>>Hoạt động</option>
+                                                   <option value="0" <?php if($row['status'] == 0) { ?> selected="selected"; <?php } ?>>Không hoạt động</option>
                                                           
                                                 </select>
                                             </div>

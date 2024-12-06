@@ -46,7 +46,7 @@ if(isset($_REQUEST['login_btn']))
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Library Management System</title>
+  <title>Hệ thống quản lý thư viện</title>
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
@@ -58,7 +58,7 @@ if(isset($_REQUEST['login_btn']))
   <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 </head>
 
-<body class="bg-dark" style="background: url(img/library-img-bg.jpg) no-repeat;  background-size:cover">
+<body class="bg-dark" style="background: url(img/anhthuvien.jpg) no-repeat;  background-size:cover">
 
   <div class="container">
     <div class="card card-login mx-auto mt-5">

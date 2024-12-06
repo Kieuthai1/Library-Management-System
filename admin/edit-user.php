@@ -42,7 +42,7 @@ if(isset($_REQUEST['sv-user']))
         <!-- Breadcrumbs-->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
-            <a href="#">Edit User</a>
+            <a href="#">Chỉnh sửa người dùng</a>
           </li>
           
         </ol>
@@ -50,21 +50,21 @@ if(isset($_REQUEST['sv-user']))
   <div class="card mb-3">
           <div class="card-header">
             <i class="fa fa-info-circle"></i>
-            Edit Details</div>
+            Chi tiết</div>
              
             <form method="post" class="form-valide">
           <div class="card-body">
                                       
                                   <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="remarks">User Name <span class="text-danger">*</span></label>
+                                      <label class="col-lg-4 col-form-label" for="remarks">Tên người dùng<span class="text-danger">*</span></label>
                                        <div class="col-lg-6">
-                                      <input type="text" name="user_name" id="user_name" class="form-control" placeholder="Enter User Name" required value="<?php echo $row['user_name']; ?>">
+                                      <input type="text" name="user_name" id="user_name" class="form-control" placeholder=" Nhập tên người dùng " required value="<?php echo $row['user_name']; ?>">
                                        </div>
                                   </div>
                                   <div class="form-group row">
                                       <label class="col-lg-4 col-form-label" for="remarks">EmailId <span class="text-danger">*</span></label>
                                        <div class="col-lg-6">
-                                      <input type="email" name="emailid" id="emailid" class="form-control" placeholder="Enter EmailId" required value="<?php echo $row['emailid']; ?>">
+                                      <input type="email" name="emailid" id="emailid" class="form-control" placeholder=" Nhập EmailId" required value="<?php echo $row['emailid']; ?>">
                                        </div>
                                   </div>
                                   <div class="form-group row">
@@ -80,13 +80,13 @@ if(isset($_REQUEST['sv-user']))
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="status">Status <span class="text-danger">*</span>
+                                            <label class="col-lg-4 col-form-label" for="status">Trạng thái <span class="text-danger">*</span>
                                             </label>
                                             <div class="col-lg-6">
                                                 <select class="form-control" id="status" name="status" required>
                                                     <option value="">Select Status</option>
-                                                   <option value="1" <?php if($row['status'] == 1) { ?> selected="selected"; <?php } ?>>Active</option>
-                                                   <option value="0" <?php if($row['status'] == 0) { ?> selected="selected"; <?php } ?>>Inactive</option>
+                                                   <option value="1" <?php if($row['status'] == 1) { ?> selected="selected"; <?php } ?>>Hoạt động</option>
+                                                   <option value="0" <?php if($row['status'] == 0) { ?> selected="selected"; <?php } ?>>Không hoạt động</option>
                                                           
                                                 </select>
                                             </div>

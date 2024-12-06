@@ -56,7 +56,7 @@ if(isset($_REQUEST['change-pwd']))
         <!-- Breadcrumbs-->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
-            <a href="#">Change Password</a>
+            <a href="#">Thay đổi mật khẩu</a>
           </li>
           
         </ol>
@@ -64,33 +64,33 @@ if(isset($_REQUEST['change-pwd']))
   <div class="card mb-3">
           <div class="card-header">
             <i class="fa fa-info-circle"></i>
-            Submit Password Details</div>
+            Thay đổi mật khẩu </div>
              
             <form method="post" class="form-valide">
           <div class="card-body">
           <div class="form-group row">
-          <label class="col-lg-4 col-form-label" for="pwd">Current Password <span class="text-danger">*</span></label>
+          <label class="col-lg-4 col-form-label" for="pwd">Mật khẩu hiện tại</label> <span class="text-danger">*</span></label>
            <div class="col-lg-6">
-          <input type="password" name="c_password" id="c_password" class="form-control" placeholder="Enter Current Password" required>
+          <input type="password" name="c_password" id="c_password" class="form-control" placeholder="Mật khẩu hiện tại" required>
            </div>
       </div>
                                          
        <div class="form-group row">
-          <label class="col-lg-4 col-form-label" for="pwd">New Password <span class="text-danger">*</span></label>
+          <label class="col-lg-4 col-form-label" for="pwd">Mật khẩu mới<span class="text-danger">*</span></label>
            <div class="col-lg-6">
-          <input type="password" name="n_password" id="n_password" class="form-control" placeholder="Enter New Password" required>
+          <input type="password" name="n_password" id="n_password" class="form-control" placeholder="Mật khẩu mới" required>
            </div>
       </div>     
                                                                             
    <div class="form-group row">
-      <label class="col-lg-4 col-form-label" for="pwd">Confirm New Password <span class="text-danger">*</span></label>
+      <label class="col-lg-4 col-form-label" for="pwd">Xác nhận mật khẩu <span class="text-danger">*</span></label>
        <div class="col-lg-6">
-      <input type="password" name="c_n_password" id="c_n_password" class="form-control" placeholder="Confirm New Password" required>
+      <input type="password" name="c_n_password" id="c_n_password" class="form-control" placeholder="Xác nhận mật khẩu" required>
        </div>
   </div> 
     <div class="form-group row">
         <div class="col-lg-8 ml-auto">
-            <button type="submit" name="change-pwd" class="btn btn-primary">Submit</button>
+            <button type="submit" name="change-pwd" class="btn btn-primary">Xác nhận</button>
         </div>
     </div>
 

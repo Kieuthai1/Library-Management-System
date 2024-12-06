@@ -21,7 +21,7 @@ if(isset($_REQUEST['login_btn']))
     else
     { ?>
     <script>
-            alert("You have entered wrong emailid or password.");
+            alert("Bạn đã nhập sai mật khẩu hoặc tài khoản");
         </script>
     
     <?php
@@ -40,7 +40,7 @@ if(isset($_REQUEST['login_btn']))
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Library Management System</title>
+  <title>Hệ thống quản lý thư viện</title>
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
@@ -52,12 +52,12 @@ if(isset($_REQUEST['login_btn']))
   <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
 </head>
 
-<body class="bg-dark" style="background: url(../img/library-img-bg.jpg) no-repeat;  background-size:cover">
+<body class="bg-dark" style="background: url(../img/anhthuvien.jpg) no-repeat;  background-size:cover">
 
   <div class="container">
     <div class="card card-login mx-auto mt-5">
       <div class="card-header">
-       <h2><center style="color:coral;">Admin Login</center></h2>
+       <h2><centerr style="color:coral;">Admin Login</centerr></h2>
       </div>
       <div class="card-body">
         <form name="login"  method="post" action="">

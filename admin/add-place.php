@@ -36,7 +36,7 @@ if(isset($_REQUEST['sbt-plc']))
         <!-- Breadcrumbs-->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
-            <a href="#">Add Place</a>
+            <a href="#">Thêm địa điểm</a>
           </li>
           
         </ol>
@@ -44,26 +44,26 @@ if(isset($_REQUEST['sbt-plc']))
   <div class="card mb-3">
           <div class="card-header">
             <i class="fa fa-info-circle"></i>
-            Submit Details</div>
+            Chi tiết</div>
              
             <form method="post" class="form-valide">
           <div class="card-body">
                                       
                                   <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="remarks">Place Name <span class="text-danger">*</span></label>
+                                      <label class="col-lg-4 col-form-label" for="remarks">Tên địa điểm <span class="text-danger">*</span></label>
                                        <div class="col-lg-6">
-                                      <input type="text" name="place_name" id="place_name" class="form-control" placeholder="Enter Place Name" required>
+                                      <input type="text" name="place_name" id="place_name" class="form-control" placeholder=" Nhập tên địa điểm" required>
                                        </div>
                                   </div>
                                   
                                       <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="status">Status <span class="text-danger">*</span>
+                                            <label class="col-lg-4 col-form-label" for="status">Trạng thái <span class="text-danger">*</span>
                                             </label>
                                             <div class="col-lg-6">
                                                 <select class="form-control" id="status" name="status" required>
-                                                    <option value="">Select Status</option>
-                                                    <option  value="1">Active</option>
-                                                    <option  value="0">Inactive</option>
+                                                    <option value="">Chọn trạng thái</option>
+                                                    <option  value="1">Hoạt động</option>
+                                                    <option  value="0">Không hoạt động</option>
                                                           
                                                 </select>
                                             </div>
@@ -71,7 +71,7 @@ if(isset($_REQUEST['sbt-plc']))
                            
                                         <div class="form-group row">
                                             <div class="col-lg-8 ml-auto">
-                                                <button type="submit" name="sbt-plc" class="btn btn-primary">Submit</button>
+                                                <button type="submit" name="sbt-plc" class="btn btn-primary">Đăng kí</button>
                                             </div>
                                         </div>
                                     

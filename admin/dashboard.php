@@ -47,7 +47,7 @@ if(empty($id))
           <div class="widget-summary-col">
             <div class="summary">
             <a href="view-book.php"> 
-              <h4 class="title">Total Books</h4>
+              <h4 class="title">Tổng số sách</h4>
               <div class="info">
                 <strong class="amount"><?php echo $total_book[0]; ?></strong><br>  
               </div>
@@ -73,7 +73,7 @@ if(empty($id))
           <div class="widget-summary-col">
             <div class="summary">
               <a href="view-book.php"> 
-              <h4 class="title">Available Books</h4>
+              <h4 class="title">Sách sẵn có</h4>
               <div class="info">
                 <strong class="amount"><?php echo $avail_book[0]; ?></strong><br>                
               </div>
@@ -98,7 +98,7 @@ if(empty($id))
           </div>
           <div class="widget-summary-col">
             <div class="summary">
-              <h4 class="title">Issued Books</h4>
+              <h4 class="title">Sách đã mượn</h4>
               <div class="info">
                 <strong class="amount"><?php echo $issued_book[0]; ?></strong><br>                
               </div>
@@ -122,7 +122,7 @@ if(empty($id))
           </div>
           <div class="widget-summary-col">
             <div class="summary">
-              <h4 class="title">Returned Books</h4>
+              <h4 class="title">Sách đã trả</h4>
               <div class="info">
                 <strong class="amount"><?php echo $return_book; ?></strong><br>                
               </div>
@@ -147,7 +147,7 @@ if(empty($id))
           <div class="widget-summary-col">
             <div class="summary">
             <a href="view-users.php"> 
-              <h4 class="title">Total User</h4>
+              <h4 class="title"> Tổng người dùng</h4>
               <div class="info">
                 <strong class="amount"><?php echo $total_user[0]; ?></strong><br>                 
               </div> 

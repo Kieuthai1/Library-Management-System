@@ -48,7 +48,7 @@ include('include/header.php'); ?>
           <div class="widget-summary-col">
             <div class="summary">
             <a href="book.php"> 
-              <h4 class="title">Total Books</h4>
+              <h4 class="title">Tổng số sách</h4>
               <div class="info">
                 <strong class="amount"><?php echo $total_book[0]; ?></strong><br>
               </div>
@@ -73,7 +73,7 @@ include('include/header.php'); ?>
           <div class="widget-summary-col">
             <div class="summary">
             <a href="issued-book.php"> 
-              <h4 class="title">Book Issued</h4>
+              <h4 class="title">Sách đã mượn</h4>
               <div class="info">
                 <strong class="amount"><?php echo $issued_book[0]; ?></strong><br>
                  

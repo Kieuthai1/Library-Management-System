@@ -53,30 +53,30 @@ if(isset($_REQUEST['sbt-usr']))
           <div class="card-body">
                                       
                                   <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="remarks">User Name <span class="text-danger">*</span></label>
+                                      <label class="col-lg-4 col-form-label" for="remarks">Tên <span class="text-danger">*</span></label>
                                        <div class="col-lg-6">
-                                      <input type="text" name="user_name" id="user_name" class="form-control" placeholder="Enter User Name" required>
+                                      <input type="text" name="user_name" id="user_name" class="form-control" placeholder="Nhập tên" required>
                                        </div>
                                   </div>
                                   <div class="form-group row">
                                       <label class="col-lg-4 col-form-label" for="remarks">EmailId <span class="text-danger">*</span></label>
                                        <div class="col-lg-6">
-                                      <input type="email" name="emailid" id="emailid" class="form-control" placeholder="Enter EmailId" required>
+                                      <input type="email" name="emailid" id="emailid" class="form-control" placeholder="Nhập EmailId" required>
                                        </div>
                                   </div>
                                   <div class="form-group row">
                                       <label class="col-lg-4 col-form-label" for="remarks">Password <span class="text-danger">*</span></label>
                                        <div class="col-lg-6">
-                                      <input type="password" name="pwd" id="pwd" class="form-control" placeholder="Enter Password" required>
+                                      <input type="password" name="pwd" id="pwd" class="form-control" placeholder="Nhập Password" required>
                                        </div>
                                   </div>
                                   
                                       <div class="form-group row">
-                                            <label class="col-lg-4 col-form-label" for="status">Role <span class="text-danger">*</span>
+                                            <label class="col-lg-4 col-form-label" for="status">Chức năng <span class="text-danger">*</span>
                                             </label>
                                             <div class="col-lg-6">
                                                 <select class="form-control" id="role" name="role" required>
-                                                    <option value="">Select Role</option>
+                                                    <option value="">Chọn chức năng</option>
                                                     <option  value="1">Admin</option>
                                                     <option  value="2">User</option>
                                                           
@@ -88,9 +88,9 @@ if(isset($_REQUEST['sbt-usr']))
                                             </label>
                                             <div class="col-lg-6">
                                                 <select class="form-control" id="status" name="status" required>
-                                                    <option value="">Select Status</option>
-                                                    <option  value="1">Active</option>
-                                                    <option  value="0">Inactive</option>
+                                                    <option value="">Chọn trạng thái</option>
+                                                    <option  value="1">Hoạt động</option>
+                                                    <option  value="0">Không hoạt động</option>
                                                           
                                                 </select>
                                             </div>
@@ -98,7 +98,7 @@ if(isset($_REQUEST['sbt-usr']))
                            
                                         <div class="form-group row">
                                             <div class="col-lg-8 ml-auto">
-                                                <button type="submit" name="sbt-usr" class="btn btn-primary">Submit</button>
+                                                <button type="submit" name="sbt-usr" class="btn btn-primary">Đăng kí</button>
                                             </div>
                                         </div>
                                     

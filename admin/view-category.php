@@ -20,7 +20,7 @@ if(empty($id))
         <!-- Breadcrumbs-->
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
-            <a href="#">View Category</a>
+            <a href="#">Xem thể loại</a>
           </li>
           
         </ol>
@@ -28,16 +28,16 @@ if(empty($id))
   <div class="card mb-3">
           <div class="card-header">
             <i class="fa fa-info-circle"></i>
-            View Details</div>
+           Xem chi tiết </div>
             <div class="card-body">
             <div class="table-responsive">
               <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                                             <tr>
                                                 <th>S.No.</th>
-                                                <th>Category Name</th>
-                                                <th>Status</th>
-                                                <th>Action</th>
+                                                <th>Thể loại</th>
+                                                <th>Trạng thái</th>
+                                                <th>Hoạt động</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -56,12 +56,12 @@ if(empty($id))
                                                 <td><?php echo $sn; ?></td>
                                                 <td><?php echo $row['category_name']; ?></td>
                                                 <?php if($row['status']==1){
-                                                  ?><td><span class="badge badge-success">Active</span></td>
-                                        <?php } else { ?><td><span class="badge badge-danger">Inactive</span></td>
+                                                  ?><td><span class="badge badge-success">Hoạt động</span></td>
+                                        <?php } else { ?><td><span class="badge badge-danger">Không hoạt động</span></td>
                                            <?php } ?>     
                                                   <td>
-                                                  <a href="edit-category.php?id=<?php echo $row['id'];?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                  <a href="view-category.php?ids=<?php echo $row['id'];?>" onclick="return confirmDelete()"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                                  <a href="edit-category.php?id=<?php echo $row['id'];?>"><i class="fa fa-pencil m-r-5"></i> Sửa</a>
+                                                  <a href="view-category.php?ids=<?php echo $row['id'];?>" onclick="return confirmDelete()"><i class="fa fa-trash-o m-r-5"></i> Xóa</a>
                                                   </td>
                                                 </tr>
 										<?php $sn++; } ?>
@@ -83,6 +83,6 @@ if(empty($id))
  <?php include('include/footer.php'); ?>
  <script language="JavaScript" type="text/javascript">
 function confirmDelete(){
-    return confirm('Are you sure want to delete this Category?');
+    return confirm('Bạn chắc chắn muốn xóa thể loại này?');
 }
 </script>

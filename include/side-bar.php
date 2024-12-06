@@ -10,14 +10,14 @@
       <li class="nav-item ">
         <a class="nav-link " href="book.php" style="color: white;">
           <i class="fa fa-book"></i>
-          <span>Books Details</span>
+          <span> Chi tiết sách</span>
         </a>
         
       </li>
        <li class="nav-item ">
         <a class="nav-link " href="issued-book.php" style="color: white;">
           <i class="fa fa-book"></i>
-          <span>Issued Books </span>
+          <span>Sách đã mượn</span>
         </a>
         
       </li>
